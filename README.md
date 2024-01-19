@@ -39,6 +39,6 @@ To install the correct versions of the required packages, run the command ```pip
   - `test_output.py`: Script for testing output format.
   - `debug_output.txt`: Output of debug dataset, use for check the correctness of some functions before appling on whole dataset.
   - `requirements.txt`: List of all the dependencies with their versions.
-- `visualization`: Directory containing visualization plots.
+- `visualization/`: Directory containing visualization plots.
 - `prediction.csv`: My final prediction of moive reviews.
 - `README.md`: Project overview.
