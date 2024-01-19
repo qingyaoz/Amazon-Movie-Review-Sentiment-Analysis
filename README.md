@@ -4,11 +4,11 @@ This project is primarily a personal learning exercise, maintained on GitHub for
 ## Overview
 This project aims to identify the most critically-acclaimed movies by training a model that deduces the sentiment of Amazon reviews. Specifically, the model will determine whether the review author believes the movie is worth watching. This project is particularly designed to assist in automating the movie selection process, allowing for more efficient and informed choices.
 
-## Dataset
-The dataset provided for this project is a comprehensive collection of reviews and ratings from Amazon Prime Video’s vast catalog of movies. It consists of thousands of reviews from various users, offering a rich resource for training our models.
-
 ## Objective
 The primary goal is to train various Support Vector Machines (SVMs) to classify the sentiment of a movie review accurately. This automated sentiment analysis will help in quickly identifying movies that are highly regarded by viewers, thereby enhancing the movie selection process.
+
+## Dataset
+The dataset provided for this project is a comprehensive collection of reviews and ratings from Amazon Prime Video’s vast catalog of movies. It consists of thousands of reviews from various users, offering a rich resource for training our models.
 
 ## Tools and Techniques
 
