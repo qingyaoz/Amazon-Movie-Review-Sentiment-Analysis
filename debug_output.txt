@@ -1,0 +1,86 @@
+-------- Reporting dataset statistics --------
+The input sentence is "I love EECS 445. It's my favorite course!"
+The processed sentence is ['i', 'love', 'eecs', '445', 'it', 's', 'my', 'favorite', 'course']
+d: 3804
+Average number of nonzero features: 72.41044776119404
+Most common word: the
+
+-------- Linear SVM with grid search--------
+Metric: accuracy
+Best c: 0.100000
+CV Score 0.7692
+
+Metric: f1_score
+Best c: 0.100000
+CV Score 0.7766
+
+Metric: auroc
+Best c: 0.010000
+CV Score 0.8349
+
+Metric: precision
+Best c: 0.001000
+CV Score 1.0000
+
+Metric: sensitivity
+Best c: 0.100000
+CV Score 0.8066
+
+Metric: specificity
+Best c: 0.001000
+CV Score 1.0000
+
+-------- Displaying the most positive and negative words --------
+coeff: 0.1729 word: series
+coeff: 0.2142 word: movie
+coeff: 0.2701 word: love
+coeff: 0.2803 word: good
+coeff: 0.4712 word: great
+coeff: -0.2031 word: be
+coeff: -0.2553 word: would
+coeff: -0.3264 word: t
+coeff: -0.3496 word: boring
+coeff: -0.6328 word: not
+
+-------- Linear SVM with l1-penalty, grid search and auroc --------
+Best c: 0.100000
+Question 3.3: Quadratic SVM
+
+-------- Quadratic SVM with grid search and auroc metric --------
+Best c: 10.000000 Best coeff (r): 1000.00000
+Test Performance: 0.7228
+
+-------- Quadratic SVM with random search and auroc metric --------
+Best c: 177.639398 Best coeff (r): 59.76026
+Test Performance: 0.7210
+
+-------- Linear SVM with imbalanced class weights --------
+Test Performance on metric accuracy: 0.4925
+Test Performance on metric f1_score: 0.6222
+Test Performance on metric auroc: 0.6275
+Test Performance on metric precision: 0.5000
+Test Performance on metric sensitivity: 0.8235
+Test Performance on metric specificity: 0.1515
+
+-------- Linear SVM on an imbalanced data set --------
+Test Performance on metric accuracy: 0.7907
+Test Performance on metric f1_score: 0.8831
+Test Performance on metric auroc: 0.5490
+Test Performance on metric precision: 0.7907
+Test Performance on metric sensitivity: 1.0000
+Test Performance on metric specificity: 0.0000
+
+-------- Choosing appropriate class weights --------
+class_weight={-1: 9, 1: 7}
+Test Performance on metric accuracy: 0.7674
+Test Performance on metric f1_score: 0.8649
+Test Performance on metric auroc: 0.7745
+Test Performance on metric precision: 0.8000
+Test Performance on metric sensitivity: 0.9412
+Test Performance on metric specificity: 0.1111
+
+-------- Coefficients for 'actor' and 'actress'--------
+Coefficient for 'actor': 0.013700486481230633
+Coefficient for 'actress': -0.0020349269486655487
+
+Association between "talented" and the sets {her, woman, women}, and {him, man, men}: 0.00020813942
