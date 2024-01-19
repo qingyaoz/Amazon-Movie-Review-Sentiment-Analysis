@@ -32,10 +32,13 @@ To install the correct versions of the required packages, run the command ```pip
   - `dataset.csv`: Amazon movie reviews with binary labels.
   - `heldout.csv`: Amazon movie reviews with multiclass labels, using for prediction.
   - `debug.csv`: A samll dataset for debug.
-- `helper.py`: Script for data accessing and prediction generating.
-- `project.py`: Skeleton code, including data cleaning, model training, model evaluation, and output.
-- `challenge.py`: Script for different model selection and hyperparameter tunning.
-- `test_output.py`: Script for testing output format.
-- `debug_output.txt`: Output of debug dataset, use for check the correctness of some functions before appling on whole dataset.
-- `requirements.txt`: List of all the dependencies with their versions.
+- `code/`: Directory containing the code related files.
+  - `helper.py`: Script for data accessing and prediction generating.
+  - `project.py`: Skeleton code, including data cleaning, model training, model evaluation, and output.
+  - `challenge.py`: Script for different model selection and hyperparameter tunning.
+  - `test_output.py`: Script for testing output format.
+  - `debug_output.txt`: Output of debug dataset, use for check the correctness of some functions before appling on whole dataset.
+  - `requirements.txt`: List of all the dependencies with their versions.
+- `visualization`: Directory containing visualization plots.
+- `prediction.csv`: My final prediction of moive reviews.
 - `README.md`: Project overview.
