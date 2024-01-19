@@ -10,14 +10,14 @@ The primary goal is to train various Support Vector Machines (SVMs) to classify 
 ## Dataset
 The dataset provided for this project is a comprehensive collection of reviews and ratings from Amazon Prime Video’s vast catalog of movies. It consists of thousands of reviews from various users, offering a rich resource for training our models.
 
-## Tools and Techniques
+## Techniques
 
 - Data Preprocessing: Cleaning and preparing the review data for analysis.
 - Word Embedding: Utilizing Word2Vec to convert text data into numerical form that can be fed into machine learning models.
 - Model Training: Using SVMs to classify review sentiments.
 - Model Evaluation: Assessing the performance of our models.
 
-### Development Environment
+## Development Environment
 1. Python (https://www.python.org/downloads/), with a Python 3.11 virtual environment.
 2. scikit-learn (1.3.0): documentation available at https://scikit-learn.org/stable/
 3. numpy (1.25.2): documentation available at https://numpy.org/doc/stable/
@@ -27,7 +27,7 @@ The dataset provided for this project is a comprehensive collection of reviews a
 
 To install the correct versions of the required packages, run the command ```pip install -r requirements.txt``` in your virtual environment.
 
-### File Structure
+## File Structure
 - `data/`: Directory containing the dataset files.
   - `dataset.csv`: Amazon movie reviews with binary labels.
   - `heldout.csv`: Amazon movie reviews with multiclass labels, using for prediction.
